@@ -1,0 +1,9 @@
+todo
+--gun model that follows mouse(have done bullets press v or was it c to shoot using mouse) (This Might be Moving Solids which doesn't really work so we might need to look into that more)
+--stkm when ctype of hdcb deletes hdcbs near it and does hdcb graphics on its head (draw pixel/line)
+--u235 works like plut, might have to get neut doing the function to bypass annoy layering bugs(Does that scipt i made work well function-wise?)
+--more elements in the option area (jw button then inside that the >> button)
+--lead does more suggested stuff to shut up people
+--uran238 double beta to plut, where a slow neutron has a small chance to turn into plut
+--CROWBAR WEAPON (What is this?)
+--life system on head crabs (How would I make it a life type?)

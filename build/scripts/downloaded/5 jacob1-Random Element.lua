@@ -1,0 +1,10 @@
+
+local rand = elem.allocate("JACOB1", "RAND")
+elem.element(rand, elem.element(elem.DEFAULT_PT_LOLZ))
+elem.property(rand, "Name", "RAND")
+elem.property(rand, "Description", "Every pixel changes into a random element when drawn, fun!")
+elem.property(rand, "Color", 0xFFFE8915)
+elem.property(rand, "MenuSection", elem.SC_SPECIAL)
+elem.property(rand, "Update", function (i)
+    pcall(tpt.set_property, "type", math.random(1,255), i)
+end)

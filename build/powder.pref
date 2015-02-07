@@ -1,0 +1,72 @@
+{
+	"InstallCheck" : true,
+	"WindowX" : "0",
+	"WindowY" : "0",
+	"Renderer" : {
+		"ColourMode" : "0",
+		"DisplayModes" : [],
+		"RenderModes" : [
+			"3f380",
+			"4f380",
+			"ff00f270",
+			"400f381"
+		],
+		"GravityField" : false,
+		"Decorations" : true,
+		"DebugMode" : true
+	},
+	"Simulation" : {
+		"EdgeMode" : "0",
+		"NewtonianGravity" : "1",
+		"AmbientHeat" : "0",
+		"PrettyPowder" : "0"
+	},
+	"Decoration" : {
+		"Red" : "0",
+		"Green" : "0",
+		"Blue" : "0",
+		"Alpha" : "ff"
+	},
+	"User" : {
+		"ID" : 51153,
+		"SessionID" : "90E934CB7F41055A7996BDCD8B8895",
+		"SessionKey" : "43D2F0B6ED",
+		"Username" : "QuentinADay",
+		"Elevation" : "None"
+	},
+	"Prop" : {
+		"Type" : "7",
+		"Value" : "999999999"
+	},
+	"Console" : {
+		"History" : [
+			"tpt.setfpscap(2000)",
+			"!set type warp exot",
+			"!set tmp2 exot 999999999",
+			"!set type warp exot",
+			"!set tmp2 exot 0",
+			"tpt.setfpscap(2000)",
+			"!set ctype bcln metr",
+			"tpt.setfpscap(2000)",
+			"!set type iron exot",
+			"!set tmp2 exot 999999999",
+			"!set life exot 99999999",
+			"!set temp exot 99999999",
+			"!set temp all 99999999",
+			"!set tmp gbmb 99999999",
+			"!set life gbmb 999999999",
+			"!set life exot 0",
+			"!set type exot exot",
+			"!set temp exot 0",
+			"!set temp exot 0",
+			"!set life exot 100",
+			"!set tmp2 exot 99999999",
+			"!set tmp gbmb 0",
+			"!set temp gbmb 0",
+			"tpt.setfpscap(2000)",
+			"!set ctype pbcn dmg"
+		]
+	},
+	"Fullscreen" : true,
+	"Scale" : "1"
+}
