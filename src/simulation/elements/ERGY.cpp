@@ -49,16 +49,16 @@ Element_ERGY::Element_ERGY()
 //#TPT-Directive ElementHeader Element_ERGY static int update(UPDATE_FUNC_ARGS)
 int Element_ERGY::update(UPDATE_FUNC_ARGS)
 {
-	if (!(rand()%2-1))
-		sim->create_part(-2, x+rand()%2-1, y+rand()%2-1, PT_PHOT);
+	if (!(rand()%3-1))
+		sim->create_part(-1, x+rand()%3-1, y+rand()%3-1, PT_PHOT);
 		sim->pv[y/CELL][x/CELL] += 50;
 		parts[i].temp = INFINITY;
-	if (!(rand()%2-1))
-		sim->create_part(-2, x+rand()%2-1, y+rand()%2-1, PT_NEUT);
+	if (!(rand()%3-1))
+		sim->create_part(-1, x+rand()%3-1, y+rand()%3-1, PT_NEUT);
 		sim->pv[y/CELL][x/CELL] += 50;
 		parts[i].temp = INFINITY;
-	if (!(rand()%2-1))
-		sim->create_part(-2, x+rand()%2-1, y+rand()%2-1, PT_ELEC);
+	if (!(rand()%3-1))
+		sim->create_part(-1, x+rand()%3-1, y+rand()%3-1, PT_ELEC);
 		sim->pv[y/CELL][x/CELL] += 50;
 		parts[i].temp = INFINITY;
 	if (2+2 == 4)
