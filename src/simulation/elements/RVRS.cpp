@@ -1,4 +1,3 @@
-//Got this from Nucular's Mod
 #include "simulation/Elements.h"
 //#TPT-Directive ElementClass Element_RVRS PT_RVRS 182
 Element_RVRS::Element_RVRS()
@@ -160,11 +159,6 @@ int Element_RVRS::update(UPDATE_FUNC_ARGS)
 			{
 				parts[j].temp = MAX_TEMP;
 				parts[j].tmp = rand()%255 - rand()%255;
-			}
-			if (!(rand()%5))
-			{
-				sim->part_change_type(i,x,y, PT_PLSM);
-				parts[i].life = rand()%100 +50;
 			}
 			parts[i].temp = MAX_TEMP;
 			sim->pv[y/CELL][x/CELL] += 30;
