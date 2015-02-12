@@ -7,7 +7,7 @@ Element_RVRS::Element_RVRS()
 	Name = "RVRS";
 	Colour = PIXPACK(0x8922FF);
 	MenuVisible = 1;
-	MenuSection = SC_SPECIAL;
+	MenuSection = SC_NUCLEAR;
 	Enabled = 1;
 	
 	Advection = 0.6f;
